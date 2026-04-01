@@ -68,14 +68,14 @@ export default function MonthlySidebar({ t, records, viewYear, viewMonth, headac
       <SideRow icon="/icons/ico_intensity_mild.png"     label={t.severityMild     ?? "Mild"}        value={`${severityCounts[1]} ${daysLabel}`} />
       <SideRow icon="/icons/ico_intensity_moderate.png" label={t.severityModerate ?? "Moderate"}    value={`${severityCounts[2]} ${daysLabel}`} />
       <SideRow icon="/icons/ico_intensity_serious.png"  label={t.severityStrong   ?? "Strong"}      value={`${severityCounts[3]} ${daysLabel}`} />
-      <SideRow icon="/icons/rounded_square_strong_color.svg" label={t.migraine ?? "Migraine"} value={`${migDays} ${daysLabel}`} />
+      <SideRow icon="/icons/ico_migraine.svg" label={t.migraine ?? "Migraine"} value={`${migDays} ${daysLabel}`} />
       <SideRow icon="/icons/ico_aura.svg" label={t.aura ?? "Aura"} value={`${auraDays} ${daysLabel}`} />
 
       {/* Stats rows */}
       <div className="mt-2">
         <SideRow icon="/icons/ico_attacks.png"            label={t.attacks           ?? "Attacks"}         value={attacks}                       />
         <SideRow icon="/icons/ico_duration.svg"           label={t.hoursWithHeadache ?? "Hours w/ headache"} value={hoursDisplay}                />
-        <SideRow icon="/icons/ico_injection.png"          label={t.injections        ?? "Injections"}      value={`${auraDays} ${daysLabel}`}    />
+        <SideRow icon="/icons/ico_injection.png"          label={t.injections        ?? "Injections"}      value={`0 ${daysLabel}`}              />
         <SideRow icon="/icons/ico_intensity_medicine.png" label={t.medicationDays    ?? "Medication"}      value={`${medDays} ${daysLabel}`}     />
       </div>
     </div>

@@ -220,14 +220,14 @@ export default function CalendarPanel({
         })}
       </div>
 
-      {/* Filter checkboxes */}
-      <div className="mt-4 pt-3 flex flex-wrap gap-x-4 gap-y-2" style={{ borderTop: "1px solid rgba(74,122,181,0.1)", width: 308 }}>
+      {/* Filter checkboxes — 2 rows × 3 columns */}
+      <div className="mt-4 pt-3" style={{ borderTop: "1px solid rgba(74,122,181,0.1)", width: 308, display: "grid", gridTemplateColumns: "1fr 1fr", rowGap: 8, columnGap: 8 }}>
         <FilterCheckbox checked={filters.medicines}  onChange={() => onToggleFilter("medicines")}  color="#7b68ee" label={t.filterMedicines  ?? "Vis medisindager"}  />
         <FilterCheckbox checked={filters.injections} onChange={() => onToggleFilter("injections")} color="#3a9ad9" label={t.filterInjections ?? "Vis injeksjoner"}   />
         <FilterCheckbox checked={filters.migraine}   onChange={() => onToggleFilter("migraine")}   color="#e05a5a" label={t.filterMigraine   ?? "Vis migreneanfall"} />
         <FilterCheckbox checked={filters.cluster}    onChange={() => onToggleFilter("cluster")}    color="#f5a623" label={t.filterCluster    ?? "Vis klasehodepine"} />
         <FilterCheckbox checked={filters.notes}      onChange={() => onToggleFilter("notes")}      color="#5bc0de" label={t.filterNotes      ?? "Vis notater"}       />
-        <FilterCheckbox checked={filters.aura}       onChange={() => onToggleFilter("aura")}       color="#FFC659" label={t.filterAura       ?? "Vis aura"}          />
+        <FilterCheckbox checked={filters.aura}       onChange={() => onToggleFilter("aura")}       color="#FFC659" label={t.filterAura       ?? "Show aura"}         />
       </div>
     </div>
   );
