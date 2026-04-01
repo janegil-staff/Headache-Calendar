@@ -1,0 +1,15 @@
+{
+  "title": "Päänsärkykalenteri",
+  "subtitle": "Kirjaa päänsärky, migreeni ja lääkitys. Jaa tiedot lääkärillesi.",
+  "importTitle": "Avaa päiväkirjasi",
+  "importLabel": "Käyttökoodisi",
+  "placeholder": "Syötä koodi",
+  "importButton": "Avaa päiväkirja",
+  "invalidCode": "Virheellinen koodi. Yritä uudelleen.",
+  "available": "Saatavilla iOS:lle ja Androidille",
+  "download": "Lataa sovellus aloittaaksesi",
+  "featureCalendar": "Päivittäinen päiväkirja",
+  "featureMeds": "Lääkitysseuranta",
+  "featureStats": "Tilastot & trendit",
+  "featureMigraine": "Migreenirekisteröinti"
+}

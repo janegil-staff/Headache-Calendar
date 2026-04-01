@@ -1,0 +1,15 @@
+{
+  "title": "Calendário de Cefaleias",
+  "subtitle": "Registe dores de cabeça, enxaquecas e medicação. Partilhe dados com o seu médico.",
+  "importTitle": "Aceder ao seu diário",
+  "importLabel": "O seu código de acesso",
+  "placeholder": "Introduza o código",
+  "importButton": "Abrir diário",
+  "invalidCode": "Código inválido. Tente novamente.",
+  "available": "Disponível no iOS e Android",
+  "download": "Descarregue a app para começar",
+  "featureCalendar": "Diário diário",
+  "featureMeds": "Registo de medicação",
+  "featureStats": "Estatísticas & tendências",
+  "featureMigraine": "Deteção de enxaqueca"
+}

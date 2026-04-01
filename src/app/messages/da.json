@@ -1,0 +1,15 @@
+{
+  "title": "Hovedpinekalender",
+  "subtitle": "Registrer hovedpine, migræne og medicin. Del data med din læge.",
+  "importTitle": "Åbn din dagbog",
+  "importLabel": "Din adgangskode",
+  "placeholder": "Indtast kode",
+  "importButton": "Åbn dagbog",
+  "invalidCode": "Ugyldig kode. Prøv igen.",
+  "available": "Tilgængelig på iOS og Android",
+  "download": "Download appen for at komme i gang",
+  "featureCalendar": "Daglig dagbog",
+  "featureMeds": "Medicinregistrering",
+  "featureStats": "Statistik & tendenser",
+  "featureMigraine": "Migrænregistrering"
+}

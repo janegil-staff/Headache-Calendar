@@ -1,0 +1,15 @@
+{
+  "title": "Calendario Mal di Testa",
+  "subtitle": "Registra mal di testa, emicrania e farmaci. Condividi i dati con il tuo medico.",
+  "importTitle": "Accedi al tuo diario",
+  "importLabel": "Il tuo codice di accesso",
+  "placeholder": "Inserisci il codice",
+  "importButton": "Apri diario",
+  "invalidCode": "Codice non valido. Riprova.",
+  "available": "Disponibile su iOS e Android",
+  "download": "Scarica l'app per iniziare",
+  "featureCalendar": "Diario quotidiano",
+  "featureMeds": "Monitoraggio farmaci",
+  "featureStats": "Statistiche & tendenze",
+  "featureMigraine": "Rilevamento emicrania"
+}

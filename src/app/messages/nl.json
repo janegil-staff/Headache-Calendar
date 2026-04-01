@@ -1,0 +1,15 @@
+{
+  "title": "Hoofdpijnkalender",
+  "subtitle": "Registreer hoofdpijn, migraine en medicatie. Deel gegevens met uw arts.",
+  "importTitle": "Open uw dagboek",
+  "importLabel": "Uw toegangscode",
+  "placeholder": "Voer code in",
+  "importButton": "Open dagboek",
+  "invalidCode": "Ongeldige code. Probeer opnieuw.",
+  "available": "Beschikbaar op iOS en Android",
+  "download": "Download de app om te beginnen",
+  "featureCalendar": "Dagelijks dagboek",
+  "featureMeds": "Medicatiebeheer",
+  "featureStats": "Statistieken & trends",
+  "featureMigraine": "Migrainedetectie"
+}

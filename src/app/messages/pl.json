@@ -1,0 +1,15 @@
+{
+  "title": "Kalendarz Bólu Głowy",
+  "subtitle": "Rejestruj bóle głowy, migreny i leki. Udostępnij dane swojemu lekarzowi.",
+  "importTitle": "Otwórz swój dziennik",
+  "importLabel": "Twój kod dostępu",
+  "placeholder": "Wprowadź kod",
+  "importButton": "Otwórz dziennik",
+  "invalidCode": "Nieprawidłowy kod. Spróbuj ponownie.",
+  "available": "Dostępne na iOS i Android",
+  "download": "Pobierz aplikację, aby rozpocząć",
+  "featureCalendar": "Codzienny dziennik",
+  "featureMeds": "Śledzenie leków",
+  "featureStats": "Statystyki & trendy",
+  "featureMigraine": "Wykrywanie migreny"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Calendrier des céphalées",
+  "subtitle": "Suivez vos maux de tête, migraines et médicaments. Partagez les données avec votre médecin.",
+  "importTitle": "Accéder à votre journal",
+  "importLabel": "Votre code d'accès",
+  "placeholder": "Entrez le code",
+  "importButton": "Ouvrir le journal",
+  "invalidCode": "Code invalide. Veuillez réessayer.",
+  "available": "Disponible sur iOS et Android",
+  "download": "Téléchargez l'application pour commencer",
+  "featureCalendar": "Journal quotidien",
+  "featureMeds": "Suivi des médicaments",
+  "featureStats": "Statistiques & tendances",
+  "featureMigraine": "Détection des migraines"
+}

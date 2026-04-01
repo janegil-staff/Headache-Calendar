@@ -1,0 +1,15 @@
+{
+  "title": "Hodepinekalender",
+  "subtitle": "Registrer hodepiner, migrene og medisinbruk. Del data med legen din med ett trykk.",
+  "importTitle": "Åpne din dagbok",
+  "importLabel": "Din tilgangskode",
+  "placeholder": "Skriv inn kode",
+  "importButton": "Åpne dagbok",
+  "invalidCode": "Ugyldig kode. Prøv igjen.",
+  "available": "Tilgjengelig på iOS og Android",
+  "download": "Last ned appen for å begynne",
+  "featureCalendar": "Daglig dagbok",
+  "featureMeds": "Medisinregistrering",
+  "featureStats": "Statistikk og trender",
+  "featureMigraine": "Migreneregistrering"
+}

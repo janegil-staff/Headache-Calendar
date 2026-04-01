@@ -1,0 +1,15 @@
+{
+  "title": "Kopfschmerzkalender",
+  "subtitle": "Dokumentieren Sie Kopfschmerzen, Migräne und Medikamente. Teilen Sie Daten mit Ihrem Arzt.",
+  "importTitle": "Öffnen Sie Ihr Tagebuch",
+  "importLabel": "Ihr Zugangscode",
+  "placeholder": "Code eingeben",
+  "importButton": "Tagebuch öffnen",
+  "invalidCode": "Ungültiger Code. Bitte erneut versuchen.",
+  "available": "Verfügbar auf iOS und Android",
+  "download": "Laden Sie die App herunter, um zu beginnen",
+  "featureCalendar": "Tägliches Tagebuch",
+  "featureMeds": "Medikamentenverfolgung",
+  "featureStats": "Statistiken & Trends",
+  "featureMigraine": "Migräneerkennung"
+}

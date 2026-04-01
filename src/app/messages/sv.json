@@ -1,0 +1,15 @@
+{
+  "title": "Huvudvärkskalender",
+  "subtitle": "Registrera huvudvärk, migrän och läkemedel. Dela data med din läkare.",
+  "importTitle": "Öppna din dagbok",
+  "importLabel": "Din åtkomstkod",
+  "placeholder": "Ange kod",
+  "importButton": "Öppna dagbok",
+  "invalidCode": "Ogiltig kod. Försök igen.",
+  "available": "Tillgänglig på iOS och Android",
+  "download": "Ladda ner appen för att börja",
+  "featureCalendar": "Daglig dagbok",
+  "featureMeds": "Läkemedelsregistrering",
+  "featureStats": "Statistik & trender",
+  "featureMigraine": "Migränregistrering"
+}

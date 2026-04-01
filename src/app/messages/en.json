@@ -1,0 +1,15 @@
+{
+  "title": "Headache Calendar",
+  "subtitle": "Track your headaches, migraines and medication. Share data with your doctor in one tap.",
+  "importTitle": "Access your diary",
+  "importLabel": "Your access code",
+  "placeholder": "Enter code",
+  "importButton": "Open diary",
+  "invalidCode": "Invalid code. Please try again.",
+  "available": "Available on iOS and Android",
+  "download": "Download the app to start tracking",
+  "featureCalendar": "Daily diary",
+  "featureMeds": "Medication tracking",
+  "featureStats": "Statistics & trends",
+  "featureMigraine": "Migraine detection"
+}

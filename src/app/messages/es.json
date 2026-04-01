@@ -1,0 +1,15 @@
+{
+  "title": "Calendario de Cefaleas",
+  "subtitle": "Registra dolores de cabeza, migrañas y medicación. Comparte datos con tu médico.",
+  "importTitle": "Accede a tu diario",
+  "importLabel": "Tu código de acceso",
+  "placeholder": "Introduce el código",
+  "importButton": "Abrir diario",
+  "invalidCode": "Código inválido. Inténtalo de nuevo.",
+  "available": "Disponible en iOS y Android",
+  "download": "Descarga la app para empezar",
+  "featureCalendar": "Diario diario",
+  "featureMeds": "Seguimiento de medicación",
+  "featureStats": "Estadísticas & tendencias",
+  "featureMigraine": "Detección de migraña"
+}
