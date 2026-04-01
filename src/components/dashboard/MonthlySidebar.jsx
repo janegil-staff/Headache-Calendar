@@ -36,7 +36,9 @@ export default function MonthlySidebar({ t, records, viewYear, viewMonth, headac
   const migDays      = monthRecs.filter((r) => r.isMigraine).length;
   const auraDays     = monthRecs.filter((r) => r.hasAura).length;
   const medDays      = monthRecs.filter((r) => r.acuteMedicines?.length > 0).length;
-  const noHDays      = monthRecs.filter((r) => !r.intensity || r.intensity === 0).length;
+  const recordedNoH  = monthRecs.filter((r) => !r.intensity || r.intensity === 0).length;
+  const daysInMonth  = new Date(viewYear, viewMonth + 1, 0).getDate();
+  const noHDays      = daysInMonth - (monthRecs.length - recordedNoH);
 
   const severityCounts = { 1: 0, 2: 0, 3: 0, 4: 0 };
   monthRecs.forEach((r) => {
@@ -66,7 +68,8 @@ export default function MonthlySidebar({ t, records, viewYear, viewMonth, headac
       <SideRow icon="/icons/ico_intensity_mild.png"     label={t.severityMild     ?? "Mild"}        value={`${severityCounts[1]} ${daysLabel}`} />
       <SideRow icon="/icons/ico_intensity_moderate.png" label={t.severityModerate ?? "Moderate"}    value={`${severityCounts[2]} ${daysLabel}`} />
       <SideRow icon="/icons/ico_intensity_serious.png"  label={t.severityStrong   ?? "Strong"}      value={`${severityCounts[3]} ${daysLabel}`} />
-      <SideRow icon="/icons/ico_prevented.png"          label={t.migraine         ?? "Migraine"}    value={`${migDays} ${daysLabel}`}           />
+      <SideRow icon="/icons/rounded_square_strong_color.svg" label={t.migraine ?? "Migraine"} value={`${migDays} ${daysLabel}`} />
+      <SideRow icon="/icons/ico_aura.svg" label={t.aura ?? "Aura"} value={`${auraDays} ${daysLabel}`} />
 
       {/* Stats rows */}
       <div className="mt-2">

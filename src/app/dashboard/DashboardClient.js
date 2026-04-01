@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useLang } from "@/context/LangContext";
 import { translations } from "@/lib/translations";
-
 import CalendarPanel from "@/components/dashboard/CalendarPanel";
 import DayDetailDrawer from "@/components/dashboard/DayDetailDrawer";
 import MonthlySidebar from "@/components/dashboard/MonthlySidebar";
+
 
 function parsePatientData() {
   if (typeof window === "undefined") return null;
@@ -33,6 +33,7 @@ export default function Dashboard() {
     migraine:   true,
     cluster:    false,
     notes:      true,
+    aura:       true,
   });
 
   useEffect(() => { if (!patient) router.replace("/"); }, [patient, router]);
@@ -114,8 +115,8 @@ export default function Dashboard() {
             }}
           >
             {/* Left: calendar — fixed width */}
-            <div className="flex flex-col" style={{ width: 284, flexShrink: 0, background: "#fff" }}>
-              <div style={{ padding: "20px 20px 16px 20px" }}>
+            <div className="flex flex-col" style={{ width: 344, flexShrink: 0, background: "#fff" }}>
+              <div style={{ padding: "20px 18px 16px 18px" }}>
                 <CalendarPanel
                   t={t}
                   records={records}
@@ -161,7 +162,7 @@ export default function Dashboard() {
             <div
               className="hidden lg:block overflow-y-auto"
               style={{
-                width: 220,
+                width: 260,
                 flexShrink: 0,
                 background: "#fff",
                 borderLeft: "1px solid rgba(74,122,181,0.1)",

@@ -1,7 +1,7 @@
 "use client";
 
 const SCORE_COLOR = (s) => {
-  if (!s || s === 0) return { bg: "#e8f0f8", text: "#4a7ab5", border: "#c0d4ec" };
+  if (!s || s === 0) return { bg: "#b8d4f0", text: "#2d5a8e", border: "#8ab4dc" };
   if (s === 1) return { bg: "#4CC189", text: "#fff",    border: "#2e9e68" };
   if (s === 2) return { bg: "#FFC659", text: "#7a5200", border: "#c99500" };
   if (s === 3) return { bg: "#FF7473", text: "#fff",    border: "#cc4040" };
